@@ -36,7 +36,7 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build
-    - name: Login to Docker,build and push
+    - name: Login to Docker,build andpush
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: shr1123/demoapp
