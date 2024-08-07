@@ -41,7 +41,7 @@ jobs:
       with:
         image: shr1123/demoapp
         tags: latest
-        registry: dcoker.io
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
